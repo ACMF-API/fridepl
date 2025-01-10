@@ -10,7 +10,7 @@ services:
 
   jhipster:
     image: harshdwivedi295/fridepl:latest
-    container_name: mongodb
+    container_name: fridepl
     depends_on:
       - mongo
     environment:
